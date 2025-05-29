@@ -1,5 +1,9 @@
 A total conversion mod inspired by BTW.
 
+PLAY THE GAME!!!! PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME
+
+---
+
 change the gameplay so that everything is done with a single end goal in mind (not aimless/player driven). but what goal, and how to get to it?!
 
 I like the seclusion of minecraft
