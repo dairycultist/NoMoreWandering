@@ -10,7 +10,9 @@ as you progress, hard things get easier but harder things open up
 most novelty comes from cool mechanics and mobs :3 (aka not deco blocks, biomes, structures, etc where you have to explore)
 
 - remove wood/stone tool crafting recipe
-- make it so you can't mine logs with your hands and flint is a tool now
+- make it so you can't mine logs with your hands
+- hitting flint against a rock has a chance of turning it into a new tool (with durability), sharp flint
+- you can place sticks on the ground and repeatedly click them with sharp flint to start a fire (how to get sticks?)
 - also harder mobs
 - also crucible that you put ore into, within which it liquifies, and then if you put a cast in it a tool part pops out
 ```
