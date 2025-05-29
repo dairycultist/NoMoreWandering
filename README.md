@@ -15,3 +15,4 @@ most novelty comes from cool mechanics and mobs :3 (aka not deco blocks, biomes,
 - you can place tinder on the ground and repeatedly click it with sharp flint to start a fire
 - also harder mobs
 - also crucible that you put ore into, within which it liquifies, and then if you put a cast in it a tool part pops out
+- temperature mechanic (just too cold is bad, too hot doesn't exist). being in water, being too deep underground, nighttime, etc makes you start freezing, necessitating fires, warm clothing, etc
