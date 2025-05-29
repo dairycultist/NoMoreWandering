@@ -12,7 +12,8 @@ most novelty comes from cool mechanics and mobs :3 (aka not deco blocks, biomes,
 - remove wood/stone tool crafting recipe
 - make it so you can't mine logs with your hands
 - hitting flint against a rock has a chance of turning it into a new tool (with durability), sharp flint
-- you can place sticks on the ground and repeatedly click them with sharp flint to start a fire (how to get sticks?)
+- can break a log with sharp flint to get tinder (the log doesn't break, just becomes barkless)
+- you can place tinder on the ground and repeatedly click them with sharp flint to start a fire
 - also harder mobs
 - also crucible that you put ore into, within which it liquifies, and then if you put a cast in it a tool part pops out
 ```
