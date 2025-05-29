@@ -2,8 +2,6 @@ A total conversion mod inspired by BTW.
 
 PLAY THE GAME!!!! PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME
 
----
-
 change the gameplay so that everything is done with a single end goal in mind (not aimless/player driven). but what goal, and how to get to it?!
 
 I like the seclusion of minecraft
@@ -20,3 +18,5 @@ most novelty comes from cool mechanics and mobs :3 (aka not deco blocks, biomes,
 - also harder mobs
 - also crucible that you put ore into, within which it liquifies, and then if you put a cast in it a tool part pops out
 - temperature mechanic (just too cold is bad, too hot doesn't exist). being in water, being too deep underground, nighttime, etc makes you start freezing, necessitating fires, warm clothing, etc
+
+getting iron tools should be a big achievement, being the culmination of getting smelting infrastructure, heat for caving/surviving night, and mastery of primitive tools
