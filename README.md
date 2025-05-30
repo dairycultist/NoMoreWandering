@@ -1,6 +1,6 @@
 A total conversion mod inspired by BTW.
 
-instead of making a mod that I enjoy based on its vibes, I'm gonna make a mod that I enjoy based on its gameplay. I like mining, so let's expand on that
+Instead of making a mod that I enjoy based on its vibes, I'm gonna make a mod that I enjoy based on its gameplay. I find mining fun, so let's commit to a mod that expands on that.
 
 > [!TIP]
 > challenge yourself vro. get positive feedback bro
