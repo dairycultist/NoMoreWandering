@@ -2,6 +2,10 @@ A total conversion mod inspired by BTW.
 
 Instead of making a mod that I enjoy based on its vibes, I'm gonna make a mod that I enjoy based on its gameplay. I find mining fun, so let's commit to a mod that expands on that.
 
+override the biome provider for overworld to be a single biome provider (no more biome variation!!!!)
+
+bone pickaxe
+
 > [!TIP]
 > challenge yourself vro. get positive feedback bro
 
