@@ -9,7 +9,7 @@ override the biome provider for overworld to be a single biome provider (no more
 
 more mobs
 
-more underground structures with resource loot, and more uses for resource loot, encouraging setting up a base camp from which you go underground
+more uses for resources, encouraging setting up a base camp from which you go underground
 
 ## World
 
@@ -36,3 +36,7 @@ as you progress, hard things get easier but harder things open up
 - temperature mechanic (just too cold is bad, too hot doesn't exist). being in water, being too deep underground, nighttime, etc makes you start freezing, necessitating fires, warm clothing, etc
 
 getting iron tools should be a big achievement, being the culmination of getting smelting infrastructure, heat for caving/surviving night, and mastery of primitive tools
+
+## NOT going to add
+
+- New structures/biomes (exploration is tedious, fun should come from taking advantage of the world's resources, not finding stuff in the world)
