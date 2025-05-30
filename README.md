@@ -1,6 +1,6 @@
 A total conversion mod inspired by BTW.
 
-PLAY THE GAME!!!! PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME PLAY THE GAME
+instead of making a mod that I enjoy based on its vibes, I'm gonna make a mod that I enjoy based on its gameplay. I like mining, so let's expand on that
 
 > [!TIP]
 > challenge yourself vro. get positive feedback bro
