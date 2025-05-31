@@ -8,6 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(OverworldChunkGenerator.class)
@@ -43,5 +44,20 @@ public class MOverworldChunkGenerator {
         }
 
         ci.cancel();
+    }
+
+    @ModifyArg(method = "decorate", at = @At(value = "INVOKE", target = "Ljava/util/Random;nextInt(I)I", ordinal = 35), index = 0)
+    private int diamondHeight(int in) {
+        return 32;
+    }
+
+    @ModifyArg(method = "decorate", at = @At(value = "INVOKE", target = "Ljava/util/Random;nextInt(I)I", ordinal = 26), index = 0)
+    private int ironHeight(int in) {
+        return 48;
+    }
+
+    @ModifyArg(method = "decorate", at = @At(value = "INVOKE", target = "Ljava/util/Random;nextInt(I)I", ordinal = 32), index = 0)
+    private int redstoneHeight(int in) {
+        return 32;
     }
 }

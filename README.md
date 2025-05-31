@@ -5,11 +5,13 @@ A total conversion mod inspired by BTW.
 
 Instead of making a mod that I enjoy based on its vibes, I'm gonna make a mod that I enjoy based on its gameplay. I find mining fun, so let's commit to a mod that expands on that.
 
-override the biome provider for overworld to be a single biome provider (no more biome variation!!!!)
+playtest :3
 
 more mobs
 
 more uses for resources, encouraging setting up a base camp (with smelting infrastructure) from which you go underground
+
+need some reason to make interesting infrastructure
 
 change the gameplay so that everything is done with a single end goal in mind (not aimless/player driven). but what goal, and how to get to it?!
 
@@ -17,12 +19,13 @@ I like the seclusion of minecraft
 
 as you progress, hard things get easier but harder things open up
 
-- add copper (replaces stone tools)
-- temperature mechanic (just too cold is bad, too hot doesn't exist). being in water, being too deep underground, nighttime, etc makes you start freezing, necessitating fires, warm clothing, etc
-
+add copper (replaces stone tools)
+ 
 getting iron tools should be a _big achievement_
 
 ## World
+
+Literally only one biome, no more variation, no more exploring :3
 
 surface
 - has wood
