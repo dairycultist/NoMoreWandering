@@ -59,15 +59,15 @@ public class MOverworldChunkGenerator {
         int chunkBlockX = chunkX * 16;
         int chunkBlockZ = chunkZ * 16;
 
-        Biome var6 = this.world.method_1781().getBiome(chunkBlockX + 16, chunkBlockZ + 16);
+        Biome biome = this.world.method_1781().getBiome(chunkBlockX + 16, chunkBlockZ + 16);
 
         for(int i = 0; i < 3; i++) {
             int x = chunkBlockX + this.random.nextInt(16) + 8;
             int z = chunkBlockZ + this.random.nextInt(16) + 8;
 
-            Feature var18 = var6.getRandomTreeFeature(this.random);
-            var18.prepare(1.0, 1.0, 1.0);
-            var18.generate(this.world, this.random, x, this.world.getTopY(x, z), z);
+            Feature tree = biome.getRandomTreeFeature(this.random);
+            tree.prepare(1.0, 1.0, 1.0);
+            tree.generate(this.world, this.random, x, this.world.getTopY(x, z), z);
         }
     }
 
