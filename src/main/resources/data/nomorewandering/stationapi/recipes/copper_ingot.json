@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "nomorewandering:copper_ore"
+  },
+  "result": {
+    "item": "nomorewandering:copper_ingot",
+    "count": 1
+  }
+}

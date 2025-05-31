@@ -23,6 +23,8 @@ add copper (replaces stone tools)
  
 getting iron tools should be a _big achievement_
 
+tank u uncleacid for the cherry textures :3
+
 ## World
 
 Literally only one biome (plains but with trees added), no more variation, no more exploring :3
@@ -32,7 +34,7 @@ surface
 
 subsurface
 - thin crust below surface
-- has copper
+- has copper (same hardness/mining requirements/stuff as coal)
 
 caverns
 - huge underground cave
