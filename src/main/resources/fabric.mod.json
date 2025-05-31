@@ -1,28 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "nomorewandering",
   "version": "${version}",
 
-  "name": "Template",
+  "name": "No More Wandering",
   "description": "",
-  "authors": [
-    "DanyGames2014"
-  ],
+  "authors": [ "dairycultist" ],
 
   "license": "MIT",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/nomorewandering/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "stationapi:event_bus": [
-    ],
-    "stationapi:event_bus_client": [
-    ],
-    "stationapi:event_bus_server": [
-    ]
+    "stationapi:event_bus": [],
+    "stationapi:event_bus_client": [],
+    "stationapi:event_bus_server": []
   },
   "mixins": [
-    "template.mixins.json"
+    "nomorewandering.mixins.json"
   ],
 
   "depends": {
