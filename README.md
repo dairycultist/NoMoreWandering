@@ -21,7 +21,7 @@ as you progress, hard things get easier but harder things open up
 
 getting iron tools should be a _big achievement_
 
-tank u uncleacid for the cherry textures :3
+tank u uncleacid for the cherry tree + copper block textures :3
 
 ## World
 
