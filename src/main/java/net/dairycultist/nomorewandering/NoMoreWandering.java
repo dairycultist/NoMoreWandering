@@ -7,6 +7,7 @@ import net.modificationstation.stationapi.api.event.registry.BlockRegistryEvent;
 import net.modificationstation.stationapi.api.event.registry.ItemRegistryEvent;
 import net.modificationstation.stationapi.api.mod.entrypoint.Entrypoint;
 import net.modificationstation.stationapi.api.template.block.TemplateOreBlock;
+import net.modificationstation.stationapi.api.template.block.TemplateOreStorageBlock;
 import net.modificationstation.stationapi.api.template.item.TemplateItem;
 import net.modificationstation.stationapi.api.util.Namespace;
 import net.modificationstation.stationapi.api.util.Null;
@@ -19,7 +20,7 @@ public class NoMoreWandering {
     public static Namespace NAMESPACE = Null.get();
 
     public static Block COPPER_ORE;
-//    public static Block COPPER_BLOCK;
+    public static Block COPPER_BLOCK;
     public static Item COPPER_INGOT;
 
     @EventListener
@@ -30,6 +31,12 @@ public class NoMoreWandering {
                 .setResistance(5.0F)
                 .setSoundGroup(STONE_SOUND_GROUP)
                 .setTranslationKey(NAMESPACE, "copper_ore");
+
+        COPPER_BLOCK = new TemplateOreStorageBlock(NAMESPACE.id("copper_block"), 0)
+                .setHardness(3.0F)
+                .setResistance(5.0F)
+                .setSoundGroup(STONE_SOUND_GROUP)
+                .setTranslationKey(NAMESPACE, "copper_block");
     }
 
     @EventListener

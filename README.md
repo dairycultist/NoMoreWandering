@@ -19,26 +19,24 @@ I like the seclusion of minecraft
 
 as you progress, hard things get easier but harder things open up
 
-add copper (replaces stone tools)
- 
 getting iron tools should be a _big achievement_
 
 tank u uncleacid for the cherry textures :3
 
 ## World
 
-Literally only one biome (plains but with trees added), no more variation, no more exploring :3
+Literally only one biome (plains but with oak/cherry trees added), no more variation, no more exploring :3
 
 surface
 - has wood
 
 subsurface
 - thin crust below surface
-- has copper (same hardness/mining requirements/stuff as coal)
+- has coal and copper (same hardness/mining requirements/stuff as coal, copper tools replace stone tools)
 
 caverns
 - huge underground cave
-- has iron/diamonds
+- has iron, diamonds, redstone, lapis, and gold
 
 ## NOT going to add
 
