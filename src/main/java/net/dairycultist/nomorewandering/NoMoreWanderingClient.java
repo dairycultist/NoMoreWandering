@@ -11,6 +11,7 @@ public class NoMoreWanderingClient {
     public static int CHERRY_LOG_END;
     public static int CHERRY_LOG_SIDE;
     public static int CHERRY_LEAVES;
+    public static int CHERRY_LEAVES_FANCY;
 
     @EventListener
     public void registerTextures(TextureRegisterEvent event) {
@@ -18,6 +19,7 @@ public class NoMoreWanderingClient {
         CHERRY_LOG_END = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_log_end")).index;
         CHERRY_LOG_SIDE = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_log_side")).index;
         CHERRY_LEAVES = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_leaves")).index;
+        CHERRY_LEAVES_FANCY = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_leaves_fancy")).index;
 
         Item.STONE_SWORD.setTextureId(
                 Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_sword")).index

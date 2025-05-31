@@ -4,15 +4,18 @@ import net.dairycultist.nomorewandering.NoMoreWanderingClient;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.LeavesBlock;
-import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.world.BlockView;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(LeavesBlock.class)
 public class MLeavesBlock {
+
+    @Unique private static boolean isFancy = false;
 
     // meta 3 is cherry
 
@@ -20,7 +23,7 @@ public class MLeavesBlock {
     public void getTexture(int side, int meta, CallbackInfoReturnable<Integer> cir) {
 
         if ((meta & 3) == 3)
-            cir.setReturnValue(NoMoreWanderingClient.CHERRY_LEAVES);
+            cir.setReturnValue(isFancy ? NoMoreWanderingClient.CHERRY_LEAVES_FANCY : NoMoreWanderingClient.CHERRY_LEAVES);
     }
 
     @Environment(EnvType.CLIENT)
@@ -37,5 +40,12 @@ public class MLeavesBlock {
 
         if ((blockView.getBlockMeta(x, y, z) & 3) == 3)
             cir.setReturnValue(-1);
+    }
+
+    @Environment(EnvType.CLIENT)
+    @Inject(method = "setFancyGraphics", at = @At(value = "HEAD"))
+    public void setFancyGraphics(boolean isFancy, CallbackInfo ci) {
+
+        MLeavesBlock.isFancy = isFancy;
     }
 }
