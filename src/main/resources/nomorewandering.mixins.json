@@ -7,6 +7,7 @@
     "AGenerator",
     "MCaveWorldCarver",
     "MDimension",
+    "MLeavesBlock",
     "MLogBlock",
     "MOverworldChunkGenerator",
     "MToolRecipes",
