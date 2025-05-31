@@ -21,6 +21,6 @@ public class MDimension {
     @Overwrite
     public void initBiomeSource() {
 
-        biomeSource = new FixedBiomeSource(Biome.SHRUBLAND, 0.6F, 0.3F);
+        biomeSource = new FixedBiomeSource(Biome.PLAINS, 0.6F, 0.3F);
     }
 }

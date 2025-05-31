@@ -25,7 +25,7 @@ getting iron tools should be a _big achievement_
 
 ## World
 
-Literally only one biome, no more variation, no more exploring :3
+Literally only one biome (plains but with trees added), no more variation, no more exploring :3
 
 surface
 - has wood
