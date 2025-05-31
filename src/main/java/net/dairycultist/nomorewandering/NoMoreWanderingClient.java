@@ -8,8 +8,16 @@ import net.modificationstation.stationapi.api.util.Identifier;
 
 public class NoMoreWanderingClient {
 
+    public static int CHERRY_LOG_END;
+    public static int CHERRY_LOG_SIDE;
+    public static int CHERRY_LEAVES;
+
     @EventListener
     public void registerTextures(TextureRegisterEvent event) {
+
+        CHERRY_LOG_END = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_log_end")).index;
+        CHERRY_LOG_SIDE = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_log_side")).index;
+        CHERRY_LEAVES = Atlases.getTerrain().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "block/cherry_leaves")).index;
 
         Item.STONE_SWORD.setTextureId(
                 Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_sword")).index

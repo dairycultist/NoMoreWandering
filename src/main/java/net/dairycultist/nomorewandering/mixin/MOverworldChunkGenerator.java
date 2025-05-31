@@ -1,5 +1,6 @@
 package net.dairycultist.nomorewandering.mixin;
 
+import net.dairycultist.nomorewandering.CherryTreeFeature;
 import net.dairycultist.nomorewandering.NoMoreWandering;
 import net.minecraft.block.Block;
 import net.minecraft.util.math.noise.OctavePerlinNoiseSampler;
@@ -69,7 +70,7 @@ public class MOverworldChunkGenerator {
             int x = chunkBlockX + this.random.nextInt(16) + 8;
             int z = chunkBlockZ + this.random.nextInt(16) + 8;
 
-            Feature tree = biome.getRandomTreeFeature(this.random);
+            Feature tree = this.random.nextInt(4) == 0 ? new CherryTreeFeature() : biome.getRandomTreeFeature(this.random);
             tree.prepare(1.0, 1.0, 1.0);
             tree.generate(this.world, this.random, x, this.world.getTopY(x, z), z);
         }
