@@ -16,7 +16,7 @@ public class MOverworldChunkGenerator {
 
     @Unique private static final double CAVERN_PILLAR_FREQUENCY = 0.35;
     @Unique private static final double CAVERN_HEIGHT_MULT = 8.0;
-    @Unique private static final int CAVERN_MIDPOINT_Y = 24;
+    @Unique private static final int CAVERN_MIDPOINT_Y = 36;
 
     @Shadow private OctavePerlinNoiseSampler perlinNoise2;
     @Shadow private OctavePerlinNoiseSampler perlinNoise3;
