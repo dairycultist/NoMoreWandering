@@ -93,7 +93,7 @@ public class MOverworldChunkGenerator {
 
     @ModifyArg(method = "decorate", at = @At(value = "INVOKE", target = "Ljava/util/Random;nextInt(I)I", ordinal = 26), index = 0)
     private int ironHeight(int in) {
-        return 48;
+        return 40;
     }
 
     @ModifyArg(method = "decorate", at = @At(value = "INVOKE", target = "Ljava/util/Random;nextInt(I)I", ordinal = 32), index = 0)

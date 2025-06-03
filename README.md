@@ -21,6 +21,8 @@ as you progress, hard things get easier but harder things open up
 
 getting iron tools should be a _big achievement_
 
+need more uses for copper
+
 tank u uncleacid for the cherry tree + copper block textures :3
 
 ## World
@@ -37,7 +39,7 @@ subsurface
 caverns
 - huge underground cave
 - has iron, diamonds, redstone, lapis, and gold
-  
+
 TODO remove the nether dimension, put the nether beneath the overworld, make netherrack require iron to mine (at any reasonable speed), make diamonds only generate in the nether
 
 ## NOT going to add
