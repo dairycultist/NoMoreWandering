@@ -34,7 +34,7 @@ surface
 
 subsurface
 - thin crust below surface
-- has coal and copper (same hardness/mining requirements/stuff as coal, copper tools replace stone tools)
+- has coal and copper (copper tools/weapons/armor replace stone ones)
 
 caverns
 - huge underground cave

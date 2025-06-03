@@ -27,7 +27,7 @@ public class NoMoreWandering {
     public void registerBlocks(BlockRegistryEvent event) {
 
         COPPER_ORE = new TemplateOreBlock(NAMESPACE.id("copper_ore"), 0)
-                .setHardness(3.0F)
+                .setHardness(3.0F) // same hardness/resistance as coal
                 .setResistance(5.0F)
                 .setSoundGroup(STONE_SOUND_GROUP)
                 .setTranslationKey(NAMESPACE, "copper_ore");
