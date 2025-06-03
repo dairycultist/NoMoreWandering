@@ -29,18 +29,21 @@ tank u uncleacid for the cherry tree + copper block textures :3
 
 Literally only one biome (plains but with oak/cherry trees added), no more variation, no more exploring :3
 
-surface
+**Surface**
 - has wood
 
-subsurface
+**Subsurface**
 - thin crust below surface
 - has coal and copper (copper tools/weapons/armor replace stone ones)
 
-caverns
+**Caverns**
 - huge underground cave
 - has iron, diamonds, redstone, lapis, and gold
 
-TODO remove the nether dimension, put the nether beneath the overworld, make netherrack require iron to mine (at any reasonable speed), make diamonds only generate in the nether
+Planned: Underworld
+- nether stuff generates in the overworld (nether dimension is removed)
+- netherrack require iron to mine (at a reasonable speed)
+- diamonds ONLY generate in the underworld
 
 ## NOT going to add
 
