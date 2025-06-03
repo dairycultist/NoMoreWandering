@@ -40,5 +40,21 @@ public class NoMoreWanderingClient {
         Item.STONE_HOE.setTextureId(
                 Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_hoe")).index
         );
+
+        Item.CHAIN_HELMET.setTextureId(
+                Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_helmet")).index
+        );
+
+        Item.CHAIN_CHESTPLATE.setTextureId(
+                Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_chestplate")).index
+        );
+
+        Item.CHAIN_LEGGINGS.setTextureId(
+                Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_leggings")).index
+        );
+
+        Item.CHAIN_BOOTS.setTextureId(
+                Atlases.getGuiItems().addTexture(Identifier.of(NoMoreWandering.NAMESPACE, "item/copper_boots")).index
+        );
     }
 }

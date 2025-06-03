@@ -34,7 +34,7 @@ Literally only one biome (plains but with oak/cherry trees added), no more varia
 
 **Subsurface**
 - thin crust below surface
-- has coal and copper (copper tools/weapons/armor replace stone ones)
+- has coal and copper (copper tools/weapons/armor replace stone/chainmail ones)
 
 **Caverns**
 - huge underground cave
