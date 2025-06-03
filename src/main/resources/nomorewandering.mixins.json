@@ -15,7 +15,9 @@
     "MWeaponRecipes"
   ],
   "server": [],
-  "client": [],
+  "client": [
+    "MPlayerEntityRenderer"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
