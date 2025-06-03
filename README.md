@@ -37,6 +37,8 @@ subsurface
 caverns
 - huge underground cave
 - has iron, diamonds, redstone, lapis, and gold
+  
+TODO remove the nether dimension, put the nether beneath the overworld, make netherrack require iron to mine (at any reasonable speed), make diamonds only generate in the nether
 
 ## NOT going to add
 
