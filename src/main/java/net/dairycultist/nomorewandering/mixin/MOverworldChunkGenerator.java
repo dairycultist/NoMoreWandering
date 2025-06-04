@@ -36,7 +36,7 @@ public class MOverworldChunkGenerator {
 
                 final double height = perlinNoise2.sample((chunkX * 16 + x) / 6.0, (chunkZ * 16 + z) / 6.0);
 
-                for (int y = 0; y < 128; y++) {
+                for (int y = 0; y < 256; y++) {
 
                     byte block = 0;
 

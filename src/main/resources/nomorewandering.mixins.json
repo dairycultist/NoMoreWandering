@@ -11,6 +11,7 @@
     "MLeavesBlock",
     "MLogBlock",
     "MOverworldChunkGenerator",
+    "MOverworldDimension",
     "MToolRecipes",
     "MWeaponRecipes"
   ],
