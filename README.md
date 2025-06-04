@@ -25,7 +25,9 @@ need more uses for copper
 
 straight up gonna retexture slimes to be red and put them in my pseudonether cuz current slime spawn mechanics suck ahh
 
-some sort of "ascension table" made with obsidian. for specific tools, you can ascend them into a new, better tool (more durability, faster mining speed, etc)
+Spirit Well - slab made with obsidian (and other stuff). for specific tools, you can ascend them into a new, better tool
+(more durability, faster mining speed, vampirism, etc). The well must be placed in skylight to work, and takes a chunk
+of your health when it's used.
 
 tank u uncleacid for the cherry tree + copper block textures :3
 
