@@ -23,6 +23,10 @@ getting iron tools should be a _big achievement_
 
 need more uses for copper
 
+straight up gonna retexture slimes to be red and put them in my pseudonether cuz current slime spawn mechanics suck ahh
+
+add obsidian tools which mine much faster than diamond, and are made with 1 diamond tool + 8 obsidian
+
 tank u uncleacid for the cherry tree + copper block textures :3
 
 ## World
