@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "copper_and_caverns:copper_ore"
+  },
+  "result": {
+    "item": "copper_and_caverns:copper_ingot",
+    "count": 1
+  }
+}

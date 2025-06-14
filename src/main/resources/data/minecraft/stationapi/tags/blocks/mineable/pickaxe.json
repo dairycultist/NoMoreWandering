@@ -1,6 +1,6 @@
 {
   "values": [
-    "nomorewandering:copper_ore",
-    "nomorewandering:copper_block"
+    "copper_and_caverns:copper_ore",
+    "copper_and_caverns:copper_block"
   ]
 }

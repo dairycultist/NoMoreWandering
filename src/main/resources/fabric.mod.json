@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "nomorewandering",
+  "id": "copper_and_caverns",
   "version": "${version}",
 
   "name": "Copper and Caverns",
@@ -8,16 +8,16 @@
   "authors": [ "dairycultist" ],
 
   "license": "MIT",
-  "icon": "assets/nomorewandering/icon.png",
+  "icon": "assets/copper_and_caverns/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "stationapi:event_bus": [ "net.dairycultist.nomorewandering.NoMoreWandering" ],
-    "stationapi:event_bus_client": [ "net.dairycultist.nomorewandering.NoMoreWanderingClient" ],
+    "stationapi:event_bus": [ "net.dairycultist.copper_and_caverns.CopperAndCaverns" ],
+    "stationapi:event_bus_client": [ "net.dairycultist.copper_and_caverns.CopperAndCavernsClient" ],
     "stationapi:event_bus_server": []
   },
   "mixins": [
-    "nomorewandering.mixins.json"
+    "copper_and_caverns.mixins.json"
   ],
 
   "depends": {

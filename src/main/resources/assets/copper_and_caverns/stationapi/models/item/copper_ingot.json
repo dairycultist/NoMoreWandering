@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "copper_and_caverns:item/copper_ingot"
+  }
+}

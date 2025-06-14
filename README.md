@@ -1,8 +1,10 @@
 # Copper and Caverns
 
-Thanks to uncleacid for the cherry tree + copper block textures!
+Adds copper and caverns (and cherry trees) to the game with the intent of balancing progression.
+Copper tools, weapons, and armor replace stone/chainmail ones. The addition of copper not only
+makes you hold onto wooden tools longer, but makes getting iron tools more of a _big achievement_.
 
-Internally `nomorewandering` because this was a different project before (I'll fix it later).
+Thanks to uncleacid for the cherry tree + copper block textures!
 
 ## Resource Distribution
 
@@ -11,10 +13,8 @@ Internally `nomorewandering` because this was a different project before (I'll f
 
 **Subsurface**
 - thin crust below surface
-- has coal and copper (copper tools/weapons/armor replace stone/chainmail ones)
+- has coal and copper
 
 **Caverns**
-- huge underground cave
-- has iron, diamonds, redstone, lapis, and gold
-
-The addition of copper not only makes you hold onto wooden tools longer, but makes getting iron tools more of a _big achievement_.
+- huge series of underground caverns (roughly y=24-48)
+- has iron (y<64 => y<40), diamonds (y<16 => y<32), redstone (y<16 => y<32), lapis, and gold
