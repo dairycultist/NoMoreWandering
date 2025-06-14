@@ -7,11 +7,10 @@
     "AGenerator",
     "MArmorRecipes",
     "MCaveWorldCarver",
-    "MDimension",
+    "MForestBiome",
     "MLeavesBlock",
     "MLogBlock",
     "MOverworldChunkGenerator",
-    "MOverworldDimension",
     "MToolRecipes",
     "MWeaponRecipes"
   ],
